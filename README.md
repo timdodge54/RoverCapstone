@@ -1,4 +1,4 @@
-# Senior Captstone
+# Senior Capstone
 
 ## Responsibilites and Overview of Personal Contribution
 
