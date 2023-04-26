@@ -1,0 +1,132 @@
+[0.155s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/tim/code/RoverCapstone']
+[0.155s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/tim/code/RoverCapstone'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f374e541c40>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f374e541c40>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f374e4b3700>)
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.180s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tim/code/RoverCapstone'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/Ardunio_Nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/Ardunio_Nodes) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/Ardunio_Nodes) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/Ardunio_Nodes) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/Ardunio_Nodes) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/Ardunio_Nodes) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/Ardunio_Nodes) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/Ardunio_Nodes) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/Ardunio_Nodes) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/Ardunio_Nodes) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/Ardunio_Nodes) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/Ardunio_Nodes) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/Ardunio_Nodes) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/Ardunio_Nodes) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/figures) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/figures) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/figures) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/figures) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/figures) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/figures) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/figures) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/figures) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/figures) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/figures) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/figures) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/figures) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/figures) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/figures) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/log) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/log) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/log) ignored
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/arm_communication) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/arm_communication) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/arm_communication) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/arm_communication) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/arm_communication) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/arm_communication) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/arm_communication) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/arm_communication) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/arm_communication) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tim/code/RoverCapstone/src/arm_communication' with type 'ros.catkin' and name 'arm_communication'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/drive) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/drive) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/drive) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/drive) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/drive) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/drive) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/drive) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/drive) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/drive) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tim/code/RoverCapstone/src/drive' with type 'ros.catkin' and name 'drive'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/gui) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/gui) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/gui) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/gui) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/gui) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/gui) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/gui) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/gui) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/gui) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tim/code/RoverCapstone/src/gui' with type 'ros.catkin' and name 'gui'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/motor_controls) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/motor_controls) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/motor_controls) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/motor_controls) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/motor_controls) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/motor_controls) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/motor_controls) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/motor_controls) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/motor_controls) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tim/code/RoverCapstone/src/motor_controls' with type 'ros.catkin' and name 'motor_controls'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/moveit_and_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/moveit_and_joy) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/moveit_and_joy) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/moveit_and_joy) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/moveit_and_joy) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/moveit_and_joy) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/moveit_and_joy) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/moveit_and_joy) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/src/moveit_and_joy) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tim/code/RoverCapstone/src/moveit_and_joy' with type 'ros.catkin' and name 'moveit_and_joy'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/vids) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/vids) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/vids) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/vids) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/vids) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/vids) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/vids) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/vids) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/vids) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/vids) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/vids) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/vids) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/vids) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tim/code/RoverCapstone/vids) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
