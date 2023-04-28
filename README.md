@@ -30,6 +30,4 @@ Since the arm was replaced with an in-house built arm, the motors and electronic
 
 ## Video of Completed Rover
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jd4WxPIJLbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<!-- [![Adventure Rover](https://youtu.be/jd4WxPIJLbY)](https://youtu.be/jd4WxPIJLbY) -->
+[![Adventure Rover](https://img.youtube.com/vi/jd4WxPIJLbY/0.jpg)](https://youtu.be/jd4WxPIJLbY)
