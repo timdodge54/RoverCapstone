@@ -27,3 +27,9 @@ The previous year's team used a HERO Development board, a CAN bus-enabled microc
 ### **Arm Controls**
 
 Since the arm was replaced with an in-house built arm, the motors and electronics required a complete overhaul. The new arm employs worm gear joints connected to 24V DC motors. Initially, these motors contained encoders that allowed for closed loop feedback control to track the motor's position. However, the encoders prevented full rotation of the arm, making it unsuitable for the arm's application. Therefore, an open-loop control design was implemented. The team utilized the joy framework within the Robotic Operating System (ROS) to obtain input from a logitech controller. The team created a ROS node on the base station that interprets the controller input and sends information in the form of 2, 0, and -2 to each motor, indicating the polarity and power of the motor. This information is picked up by an Arduino connected to the rover's computer, which sends a full power signal to the motor on input and decays it over half a second unless another signal is received.
+
+## Video of Completed Rover
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jd4WxPIJLbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<!-- [![Adventure Rover](https://youtu.be/jd4WxPIJLbY)](https://youtu.be/jd4WxPIJLbY) -->
