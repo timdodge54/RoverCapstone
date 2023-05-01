@@ -23,6 +23,7 @@ The Adventure rover is a multidisciplinary robotics project that requires expert
 The arm contains an aptly named component, the prismatic joint, shown in the image below. A prismatic joint is a mechanism, linkage, or other controlling device that restricts motion to one axis. The rover prismatic joint is bolted to the chassis, and subsequently, the arm is bolted to the prismatic joint. The main linkage of the arm (excluding the claw mechanism) operates in a single plane. That plane is created by the vertical axis and the axis that runs front to back of the rover.
 
 The prismatic joint was designed to allow the arm to travel in the direction orthogonal to its plane of motion. The intent of the prismatic joint is to allow URC tasks requiring the arm to be completed easier. Without the prismatic joint, perfect alignment of the arm would need to be achieved by the overall motion of the rover, i.e. using the rover wheels. In camera vision, this was deemed to be a difficult task. The prismatic joint allows the rover to be stationary while manipulating the arm alone to retrieve or operatie objects.
+
 ![prismatic joint](figures/joint.png)
 
 ### Arm Assembly
