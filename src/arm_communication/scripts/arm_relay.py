@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 """This node relays joystick commands to the arm and linear actuator."""
 import rospy
@@ -42,8 +42,7 @@ class ArmComm:
         rospy.loginfo("Shutting down arm_communication node")
 
     def joy_callback(self, data):
-        """Receive joystick data, convert to arm commands, and publish.
-        """
+        """Receive joystick data, convert to arm commands, and publish."""
         joy = data
         rospy.loginfo(data)
         bumper_l = joy.buttons[4]
