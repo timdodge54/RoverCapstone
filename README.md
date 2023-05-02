@@ -4,9 +4,9 @@
 
 * **Team Lead**: Organized team into an agile environment using the project management software Click-Up.
 
-* **Software and Controls Lead**: Took existing software in ROS and rewrote libraries to better leverage third-party packages and streamline communications.
+* **Software and Controls Lead**: Took existing software in ROS and rewrote libraries to better leverage third-party packages and streamline communications. Designed and wired electrical system for arm and drive controls.
 
-* **Co-created Robotic Arm**: assisted in design, analysis, manufacturing and wiring. Designed control code on Arduinos and in ROS to move arm with game-pad leveraging DC and stepper motor controllers.
+* **Co-created Robotic Arm**: assisted in design, analysis, and wiring. Designed control code on Arduinos and in ROS to move arm with game-pad leveraging DC and stepper motor controllers.
 
 # Overview of Rover
 
