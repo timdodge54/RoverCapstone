@@ -2,3 +2,6 @@ log/
 build/
 devel/
 .vscode/
+**.swp
+**.swo
+**.swn

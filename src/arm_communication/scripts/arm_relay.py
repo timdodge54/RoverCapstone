@@ -1,8 +1,6 @@
 #!/usr/bin/python
 
-"""This node listens to a Joy message as published by joystick_drivers joy_node and publishes a Twist
-message to be interpreted by a driver node. If an AR tag has not been seen recently, zero the Twist."""
-
+"""This node relays joystick commands to the arm and linear actuator."""
 import rospy
 from sensor_msgs.msg import Joy
 from std_msgs.msg import Int16MultiArray
@@ -44,8 +42,8 @@ class ArmComm:
         rospy.loginfo("Shutting down arm_communication node")
 
     def joy_callback(self, data):
-        """Receive joystick data, formulate Twist message.
-        Use planner if a secondary button is pressed"""
+        """Receive joystick data, convert to arm commands, and publish.
+        """
         joy = data
         rospy.loginfo(data)
         bumper_l = joy.buttons[4]
