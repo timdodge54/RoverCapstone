@@ -1,9 +1,5 @@
-**
- * Example HERO application can reads a serial port and echos the bytes back.
- * After deploying this application, the user can open a serial terminal and type while the HERO echoes the typed keys back.
- * Use a USB to UART (TTL) cable like the Adafruit Raspberry PI or FTDI-TTL cable.
- * Use device manager to figure out which serial port number to select in your PC terminal program.
- * HERO Gadgeteer Port 1 is used in this example, but can be changed at the top of Main().
+/**
+ * HERO application created to relay instructions from arduino to Talon SRX.
  */
 using System;
 using System.Threading;
