@@ -6,8 +6,6 @@
 #include <std_msgs/Int16.h>
 
 
-//I am a terrible programmer so I am using global varibles, I do declare.
-
 int a=0;
 int b=0;
 int c=0;
@@ -160,9 +158,3 @@ void loop() {
 }
 
 
-/*    if(String(a)=="100"){
-  digitalWrite(13,HIGH);
-  delay(100);
-  digitalWrite(13,LOW);
-  }
-*/
